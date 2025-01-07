@@ -1,11 +1,13 @@
-function App() {
+import Home from "./Pages/Home"
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 
+function App() {
   return (
-    <>
-      <div className="flex items-center justify-center">
-        <h1 className="text-3xl text-red-500">Hello world</h1>
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
