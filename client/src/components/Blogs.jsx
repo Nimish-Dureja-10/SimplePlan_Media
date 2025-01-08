@@ -1,0 +1,72 @@
+import React from 'react'
+import { IoChatbubbleOutline } from "react-icons/io5";
+
+const BlogCardData = [
+    {
+        id : 1,
+        title : "Blog name - Lorem ipsum dolor sit amet, et varius et consectetur",
+        desc : "Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...",
+        imgUrl : "../src/assets/images/blog1.png",
+        comNo : 0
+    },
+    {
+        id : 2,
+        title : "Blog name - Lorem ipsum dolor sit amet, et varius et consectetur",
+        desc : "Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...",
+        imgUrl : "../src/assets/images/blog2.jpg",
+        comNo : 12
+    },
+    {
+        id : 3,
+        title : "Blog name - Lorem ipsum dolor sit amet, et varius et consectetur",
+        desc : "Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...",
+        imgUrl : "../src/assets/images/blog3.jpg",
+        comNo : 6
+    },
+]
+
+const BlogCard = ({title,desc,imgUrl,comNo}) => {
+    return (
+        <div className={`flex flex-col gap-6 text-center lg:text-start items-center lg:w-[30%] border border-[#d3deeb] rounded-md p-4`}>
+            <div className='w-full'>
+                <img className='h-40 w-full object-cover rounded-md' src={imgUrl} alt='discover_card' />
+                <h4 className='font-semibold text-lg mt-2'>
+                    {title}
+                </h4>
+                <p className='text-[#666a8d] text-sm my-2 border-b pb-6'>
+                    {desc}
+                </p>
+                <div className='flex justify-between items-center'>
+                    <p className='text-sm text-[#323da6] font-semibold'>
+                        Publisher name 
+                    </p>
+                    <p className='flex items-center gap-2'>
+                        <IoChatbubbleOutline /> {comNo}
+                    </p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+const Blogs = () => {
+  return (
+    <div className='my-8 lg:px-28 px-4 flex flex-col'>
+        <div className='flex flex-col lg:flex-row justify-between'>
+            <div className='flex items-baseline gap-8'>
+                <h1 className='text-3xl text-[#2530a0] font-bold'>Our Blogs</h1>
+                <p className='uppercase text-sm text-red-500 underline'>Show all</p>
+            </div>
+        </div>
+        <div className='mt-12 flex flex-col lg:flex-row gap-8'>
+            {
+                BlogCardData.map((blog)=> (
+                    <BlogCard key={blog.id} title={blog.title} desc={blog.desc} imgUrl={blog.imgUrl} comNo={blog.comNo} />
+                ))
+            }
+        </div>
+    </div>
+  )
+}
+
+export default Blogs
