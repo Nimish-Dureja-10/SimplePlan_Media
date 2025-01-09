@@ -4,37 +4,44 @@ const BrowseCardData = [
     {
         id : 1,
         title : "Language",
-        imgUrl : "../src/assets/images/language.jpg"
+        // imgUrl : "../src/assets/images/language.jpg"
+        imgUrl : "https://i.ibb.co/JkyKQkH/language.jpg"
     },
     {
         id : 2,
         title : "Cooking",
-        imgUrl : "../src/assets/images/cooking.jpg"
+        // imgUrl : "../src/assets/images/cooking.jpg"
+        imgUrl : "https://i.ibb.co/V9yh7TD/cooking.jpg"
     },
     {
         id : 3,
         title : "Music",
-        imgUrl : "../src/assets/images/music.jpg"
+        // imgUrl : "../src/assets/images/music.jpg"
+        imgUrl : "https://i.ibb.co/C6LJrZN/music.jpg"
     },
     {
         id : 4,
         title : "Art & Craft",
-        imgUrl : "../src/assets/images/art.jpg"
+        // imgUrl : "../src/assets/images/art.jpg"
+        imgUrl : "https://i.ibb.co/dpNyVc5/art.jpg"
     },
     {
         id : 5,
         title : "Yoga",
-        imgUrl : "../src/assets/images/yoga.jpg"
+        // imgUrl : "../src/assets/images/yoga.jpg"
+        imgUrl : "https://i.ibb.co/JKQ6J5F/yoga.jpg"
     },
     {
         id : 6,
         title : "Academic",
-        imgUrl : "../src/assets/images/academics.jpg"
+        // imgUrl : "../src/assets/images/academics.jpg"
+        imgUrl : "https://i.ibb.co/HDj5ghq/academics.jpg"
     },
     {
         id : 7,
         title : "Back to roots",
-        imgUrl : "../src/assets/images/roots.jpg"
+        // imgUrl : "../src/assets/images/roots.jpg"
+        imgUrl : "https://i.ibb.co/VxkbzSs/roots.jpg"
     },
     {
         id : 8,

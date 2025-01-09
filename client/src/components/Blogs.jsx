@@ -6,21 +6,24 @@ const BlogCardData = [
         id : 1,
         title : "Blog name - Lorem ipsum dolor sit amet, et varius et consectetur",
         desc : "Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...",
-        imgUrl : "../src/assets/images/blog1.png",
+        // imgUrl : "../src/assets/images/blog1.png",
+        imgUrl : "https://i.ibb.co/wM32W0G/blog1.png",
         comNo : 0
     },
     {
         id : 2,
         title : "Blog name - Lorem ipsum dolor sit amet, et varius et consectetur",
         desc : "Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...",
-        imgUrl : "../src/assets/images/blog2.jpg",
+        // imgUrl : "../src/assets/images/blog2.jpg",
+        imgUrl : "https://i.ibb.co/FY1hfN1/blog2.jpg",
         comNo : 12
     },
     {
         id : 3,
         title : "Blog name - Lorem ipsum dolor sit amet, et varius et consectetur",
         desc : "Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...",
-        imgUrl : "../src/assets/images/blog3.jpg",
+        // imgUrl : "../src/assets/images/blog3.jpg",
+        imgUrl : "https://i.ibb.co/VM2yyqf/blog3.jpg",
         comNo : 6
     },
 ]

@@ -41,7 +41,8 @@ const Footer = () => {
         </ul>
       </div>
       <div className='flex flex-col pb-12'>
-        <img src='../src/assets/images/footer.jpg' className='w-80 lg:w-60 h-40 rounded-t-md' alt='footer_image' />
+        {/* <img src='../src/assets/images/footer.jpg' className='w-80 lg:w-60 h-40 rounded-t-md' alt='footer_image' /> */}
+        <img src='https://i.ibb.co/khDVtN5/footer.jpg' className='w-80 lg:w-60 h-40 rounded-t-md' alt='footer_image' />
         <div className='text-center bg-white px-3 w-80 lg:w-full rounded-b-md shadow-lg py-1'>
           <h4 className='uppercase text-xs text-[#2530a0] font-medium'>Sell your product with us</h4>
         </div>

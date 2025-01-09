@@ -5,25 +5,29 @@ const ExploreCardData = [
         id : 1,
         title : "Learn something new",
         description : "Explore your passion and go beyond the physical and mental boundaries of time, age, gender or geography",
-        imgUrl : "../src/assets/images/Paint.png"
+        // imgUrl : "../src/assets/images/Paint.png"
+        imgUrl : "https://i.ibb.co/74trvvy/Paint.png"
     },
     {
         id : 2,
         title : "Skilled & Passionate Teachers",
         description : "We offers Interactive classes by experts who are qualified and trusted.",
-        imgUrl : "../src/assets/images/Teacher.png"
+        // imgUrl : "../src/assets/images/Teacher.png"
+        imgUrl : "https://i.ibb.co/GRdt69p/Teacher.png"
     },
     {
         id : 3,
         title : "Take classes anytime, anywhere",
         description : "Join sessions at your own convenience and pace, from the comforts of your home.",
-        imgUrl : "../src/assets/images/Student.png"
+        // imgUrl : "../src/assets/images/Student.png"
+        imgUrl : "https://i.ibb.co/yhGGS1z/Student.png"
     },
     {
         id : 4,
         title : "Pay as you go",
         description : "No enrollment fee for our classes. You only pay for the classes that you take. Your payment is Safe andsecure with us.",
-        imgUrl : "../src/assets/images/Money.png"
+        // imgUrl : "../src/assets/images/Money.png"
+        imgUrl : "https://i.ibb.co/L0j4Ps7/Money.png"
     }
 ]
 

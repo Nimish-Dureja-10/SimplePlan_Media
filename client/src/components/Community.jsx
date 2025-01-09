@@ -5,19 +5,22 @@ const CommunityCardData = [
         id : 1,
         name : "Karandeep",
         message : "It is nice to be on an international platform where there are teachers from around the world.",
-        imgUrl : "../src/assets/images/person1.jpg"
+        // imgUrl : "../src/assets/images/person1.jpg"
+        imgUrl : "https://i.ibb.co/xL4wPSK/person1.jpg"
     },
     {
         id : 2,
         name : "Kalpana",
         message : "The best thing about these classes is that they are live and interactive. They have classes which help us to learn specialties and famous activities from other countries as well.",
-        imgUrl : "../src/assets/images/person2.jpg"
+        // imgUrl : "../src/assets/images/person2.jpg"
+        imgUrl : "https://i.ibb.co/mtwmgHT/person2.jpg"
     },
     {
         id : 3,
         name : "Kirti",
         message : "As a student, I get to explore and learn about the different cultural specialties of another country with native teachers.",
-        imgUrl : "../src/assets/images/person3.jpg"
+        // imgUrl : "../src/assets/images/person3.jpg"
+        imgUrl : "https://i.ibb.co/ccJD6Rt/person3.webp"
     },
 ]
 

@@ -177,7 +177,8 @@ const Navbar = () => {
                   </ul>
                 </div>
                 <div className="flex items-center justify-center">
-                  <img src="../src/assets/images/navinside.png" className="h-56 w-64"/>
+                  {/* <img src="../src/assets/images/navinside.png" className="h-56 w-64"/> */}
+                  <img src="https://i.ibb.co/DCQZP7x/navinside.png" className="h-56 w-64"/>
                 </div>
               </div>
             </div>
