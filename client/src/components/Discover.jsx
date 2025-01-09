@@ -84,7 +84,7 @@ const Discover = () => {
                 <h1 className='text-3xl text-[#2530a0] font-bold'>Discover classes</h1>
                 <p className='uppercase text-sm text-red-500 underline'>Show all</p>
             </div>
-            <div className='flex lg:flex-row mt-2 items-center gap-4'>
+            <div className='flex justify-between lg:flex-row mt-2 items-center gap-4'>
                 <h4>Show prices in: </h4>
                 <div>
                     <button className='bg-[#2530a0] py-2 px-6 rounded-l-full text-white text-sm'>NOK</button>

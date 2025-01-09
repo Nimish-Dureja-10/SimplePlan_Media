@@ -54,11 +54,11 @@ const BrowseCard = ({title,imgUrl}) => {
 
 const BrowseCategory = () => {
   return (
-    <div className='my-16 lg:px-28 px-20 flex flex-col'>
+    <div className='my-16 lg:px-28 px-4 flex flex-col'>
         <div>
-            <h1 className='text-3xl lg:text-start text-center text-[#2530a0] font-bold'>Browse by category</h1>
+            <h1 className='text-3xl lg:text-start text-[#2530a0] font-bold'>Browse by category</h1>
         </div>
-        <div className='flex flex-col lg:flex-row flex-wrap gap-24 mt-12'>
+        <div className='flex flex-col lg:px-1 px-16 lg:flex-row flex-wrap gap-24 mt-12'>
             {
                 BrowseCardData.map((browse)=>(
                     <BrowseCard key={browse.id} title={browse.title} imgUrl={browse.imgUrl} />
