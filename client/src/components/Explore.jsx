@@ -5,7 +5,7 @@ const ExploreCardData = [
         id : 1,
         title : "Learn something new",
         description : "Explore your passion and go beyond the physical and mental boundaries of time, age, gender or geography",
-        imgUrl : "../src/assets/images/Paint.png"
+        imgUrl : "./src/assets/images/Paint.png"
     },
     {
         id : 2,
