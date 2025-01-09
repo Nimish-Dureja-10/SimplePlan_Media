@@ -33,7 +33,7 @@ const Hero = () => {
         <div className='flex px-8 lg:py-12 lg:px-16'>
             <img className='object-contain lg:w-full lg:h-full w-100 h-100' src="https://i.ibb.co/rGj0dFg/hero.png" alt="Hero_section_photo" />
         </div>
-        <div className='fixed bottom-10 right-12 lg:right-16'>
+        <div className='fixed bottom-10 right-4 lg:right-16'>
             <button className='bg-[#2530a0] text-white p-2.5 text-lg rounded-full'><IoMdChatboxes /></button>
         </div>
     </div>
