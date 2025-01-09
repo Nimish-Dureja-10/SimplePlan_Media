@@ -54,8 +54,9 @@ const Explore = () => {
             transition={{ duration: 0.8 }}
             className='flex flex-col'
         >
-            <div className='px-4 flex items-center justify-center'>
-                <h1 className='text-3xl font-bold text-[#2530a0] text-center'>
+            <div className='px-4 flex flex-col gap-6 items-center justify-center'>
+                <img src='https://cdn.prod.website-files.com/647123ea2886adf856db6043/64712ba2d5227bcec7019c49_KL-arrow-1.svg' className='h-40 w-40' alt='down-arrow'/>
+                <h1 className='text-3xl font-bold font-sans text-[#2530a0] text-center'>
                     Explore. Enroll. Have Fun. Repeat - <br className='hidden lg:block' />
                     here hobby meet happiness
                 </h1>

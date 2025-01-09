@@ -10,7 +10,7 @@ const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0.1 }); 
     
   return (
-    <div className='lg:mt-6 h-[70vh] flex flex-col lg:flex-row justify-around px-6 lg:pl-28 lg:ml-16'>
+    <div className='lg:mt-6 h-[100vh] lg:h-[70vh] flex flex-col lg:flex-row justify-around px-6 lg:pl-28 lg:ml-16'>
         <motion.div
             ref={ref}
             initial={{ opacity: 0, y: -100 }}
