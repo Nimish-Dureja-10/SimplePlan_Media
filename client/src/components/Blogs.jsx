@@ -56,9 +56,9 @@ const Blogs = () => {
   return (
     <div className='my-8 lg:px-28 px-4 flex flex-col'>
         <div className='flex flex-col lg:flex-row justify-between'>
-            <div className='flex items-baseline gap-8'>
-                <h1 className='text-3xl text-[#2530a0] font-bold'>Our Blogs</h1>
-                <p className='uppercase text-sm text-red-500 underline'>Show all</p>
+            <div className='flex mx-auto lg:mx-0 items-baseline gap-8'>
+                <h1 className='text-3xl text-center lg:text-start text-[#2530a0] font-bold'>Our Blogs</h1>
+                <p className='uppercase text-center lg:text-start text-sm text-red-500 underline'>Show all</p>
             </div>
         </div>
         <div className='mt-12 flex flex-col lg:flex-row gap-8'>
