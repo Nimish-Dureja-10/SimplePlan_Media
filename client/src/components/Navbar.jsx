@@ -31,7 +31,7 @@ const MobileNavbar = () => {
       <div className="flex mt-2">
         <button
           onClick={handleToggle}
-          className="absolute bg-[#2530a0] p-2 rounded-full text-white right-4"
+          className="absolute bg-[#2530a0] p-2 rounded-full text-white right-2"
         >
           <GiHamburgerMenu />
         </button>

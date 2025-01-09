@@ -18,14 +18,14 @@ const Hero = () => {
                     people of all ages. 
                 </p>
             </div>
-            <div className='flex relative'>
+            <div className='hidden lg:flex lg:relative'>
                 <input 
                     type="text" 
                     placeholder="Enter your email" 
                     className='border border-[#50557d] rounded-full py-0.5 px-5 placeholder:text-sm text-left' 
                 />
                 <button 
-                    className='flex text-sm items-center gap-2 border rounded-full bg-[#2330a0] text-white py-1 px-4 uppercase absolute right-0 translate-x-[70%]'>
+                    className='flex text-sm items-center gap-2 border rounded-full bg-[#2330a0] text-white py-1 px-2 uppercase absolute right-0 translate-x-[70%]'>
                     Start Exploring <FaRegArrowAltCircleRight />
                 </button>
             </div>
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className='flex px-8 lg:py-12 lg:px-16'>
             <img className='object-contain lg:w-full lg:h-full w-100 h-100' src="https://i.ibb.co/rGj0dFg/hero.png" alt="Hero_section_photo" />
         </div>
-        <div className='fixed bottom-10 right-4 lg:right-16'>
+        <div className='fixed bottom-10 right-12 lg:right-16'>
             <button className='bg-[#2530a0] text-white p-2.5 text-lg rounded-full'><IoMdChatboxes /></button>
         </div>
     </div>

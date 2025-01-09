@@ -21,7 +21,7 @@ const Home = () => {
       <BrowseCategory />
       <Reasons />
       <Community />
-      {/* <Teaching /> */}
+      <Teaching />
       <Blogs />
       <Newsletter />
       <Footer />
