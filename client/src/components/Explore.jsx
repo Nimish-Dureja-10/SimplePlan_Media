@@ -49,7 +49,7 @@ const Explore = () => {
   return (
     <div className='flex flex-col'>
         <div className='px-4 flex items-center justify-center'>
-            <h1 className='text-3xl font-bold text-[#2530a0] lg:text-center'>
+            <h1 className='text-3xl font-bold text-[#2530a0] text-center'>
                 Explore. Enroll. Have Fun. Repeat - <br className='hidden lg:block' />
                 here hobby meet happiness
             </h1>

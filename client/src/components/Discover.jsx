@@ -5,7 +5,7 @@ const DiscoverCard = () => {
         <div className='flex flex-col items-start h-full lg:w-[23%] rounded-md bg-[#e9efff] border shadow-lg'>
             <div className='w-full'>
                 {/* <img className='h-40 object-cover rounded-t-md' src='../src/assets/images/DiscoverCard.jpg' alt='discover_card' /> */}
-                <img className='h-40 object-cover rounded-t-md' src='https://i.ibb.co/BrRtmKy/Discover-Card.jpg' alt='discover_card' />
+                <img className='h-40 object-cover rounded-t-md w-full' src='https://i.ibb.co/BrRtmKy/Discover-Card.jpg' alt='discover_card' />
             </div>
             <div className='py-2 px-4'>
                 <h4 className='text-md font-medium uppercase text-[#2530a0]'>Language</h4>

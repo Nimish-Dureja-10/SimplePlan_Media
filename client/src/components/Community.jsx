@@ -26,7 +26,7 @@ const CommunityCardData = [
 
 const CommunityCard = ({id,name,message,imgUrl}) => {
     return (
-        <div className={`flex flex-col gap-4 text-center items-center lg:w-[30%] border border-[#d3deeb] rounded-md p-4 ${id === 2 ? 'bg-[#2330a0]' : ''}`}>
+        <div className={`flex flex-col gap-4 text-center w-[80%] mx-auto items-center lg:w-[30%] border border-[#d3deeb] rounded-md p-4 ${id === 2 ? 'bg-[#2330a0]' : ''}`}>
             <div>
                 <img className='h-20 w-20 rounded-full' src={imgUrl} alt='Reason' />
             </div>
@@ -44,7 +44,7 @@ const Community = () => {
   return (
     <div className='my-16 px-4 lg:px-28'>
         <div>
-            <h1 className='text-3xl text-[#2530a0] font-bold'>Love from community</h1>
+            <h1 className='text-3xl text-center lg:text-start text-[#2530a0] font-bold'>Love from community</h1>
         </div>
         <div className='flex flex-row flex-wrap h-auto mt-12 gap-8'>
             {

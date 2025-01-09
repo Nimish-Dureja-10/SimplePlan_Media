@@ -52,7 +52,7 @@ const BrowseCardData = [
 
 const BrowseCard = ({title,imgUrl}) => {
     return (
-        <div className='h-48 pb-4 w-56 flex flex-col gap-2 border-b-2 hover:text-[#2530a0] hover:border-b-[#2530a0] hover:scale-105 cursor-pointer'>
+        <div className='h-48 pb-8 lg:pb-4 lg:w-56 w-full flex flex-col gap-2 border-b-2 hover:text-[#2530a0] hover:border-b-[#2530a0] hover:scale-105 cursor-pointer'>
             <img className='h-full w-full rounded-2xl shadow-xl object-cover' src={imgUrl} alt='language_category_image'/>
             <h4 className='text-center font-semibold'>{title}</h4>
         </div>
@@ -63,7 +63,7 @@ const BrowseCategory = () => {
   return (
     <div className='my-16 lg:px-28 px-4 flex flex-col'>
         <div>
-            <h1 className='text-3xl lg:text-start text-[#2530a0] font-bold'>Browse by category</h1>
+            <h1 className='text-3xl text-center lg:text-start text-[#2530a0] font-bold'>Browse by category</h1>
         </div>
         <div className='flex flex-col lg:px-1 px-16 lg:flex-row flex-wrap gap-24 mt-12'>
             {

@@ -41,7 +41,7 @@ const ReasonCardData =  [
 
 const ReasonCard = ({title,imgUrl}) => {
     return (
-        <div className='flex flex-col gap-4 text-center lg:text-start items-center lg:items-start lg:w-[25%]'>
+        <div className='flex flex-col mx-auto gap-4 text-center lg:text-start items-center lg:items-start lg:w-[25%]'>
             <div>
                 <img className='h-24 w-24' src={imgUrl} alt='Reason' />
             </div>
@@ -56,7 +56,7 @@ const Reasons = () => {
   return (
     <div className='my-16 px-4 lg:px-28'>
         <div>
-            <h1 className='text-3xl text-[#2530a0] font-bold'>Six reasons to choose our class</h1>
+            <h1 className='text-3xl text-center lg:text-start text-[#2530a0] font-bold'>Six reasons to choose our class</h1>
         </div>
         <div className='flex flex-row flex-wrap h-auto mt-12 gap-28'>
             {
