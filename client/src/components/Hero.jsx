@@ -10,7 +10,7 @@ const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0.1 }); 
     
   return (
-    <div className='lg:mt-6 h-[70vh] mx-auto flex flex-col lg:flex-row justify-around px-6 lg:pl-28 lg:ml-16'>
+    <div className='lg:mt-6 h-[70vh] flex flex-col lg:flex-row justify-around px-6 lg:pl-28 lg:ml-16'>
         <motion.div
             ref={ref}
             initial={{ opacity: 0, y: -100 }}
@@ -48,7 +48,7 @@ const Hero = () => {
          className='flex px-8 lg:py-12 mx-auto lg:px-16'>
             <img className='object-contain lg:w-full lg:h-full w-100 h-100' src="https://i.ibb.co/rGj0dFg/hero.png" alt="Hero_section_photo" />
         </motion.div>
-        <div className='fixed bottom-10 right-8 lg:right-16'>
+        <div className='fixed bottom-10 right-2 lg:right-16'>
             <button className='bg-[#2530a0] text-white p-2.5 text-lg rounded-full'><IoMdChatboxes /></button>
         </div>
     </div>

@@ -30,8 +30,8 @@ const BlogCardData = [
 const BlogCard = ({ title, desc, imgUrl, comNo, inView }) => {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: -100 }}
+            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -100 }}
             transition={{ duration: 0.5 }}
             className={`flex flex-col gap-6 text-center lg:text-start items-center lg:w-[30%] border border-[#d3deeb] rounded-md p-4`}
         >
@@ -62,8 +62,8 @@ const Blogs = () => {
     return (
         <motion.div
             ref={ref}
-            initial={{ opacity: 0, y: 50 }}
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: -100 }}
+            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -100 }}
             transition={{ duration: 0.6 }}
             className='my-8 lg:px-28 px-4 flex flex-col'
         >

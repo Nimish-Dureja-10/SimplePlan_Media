@@ -8,10 +8,10 @@ const Teaching = () => {
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 100 }}
-      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+      initial={{ opacity: 0, y: -100 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -100 }}
       transition={{ duration: 0.6 }}
-      className='mt-6 px-6 lg:px-32'
+      className='hidden lg:mt-6 lg:block lg:px-32'
     >
       <div className='flex flex-col lg:flex-row items-center justify-around'>
         <motion.div
